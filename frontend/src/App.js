@@ -4,7 +4,9 @@ import { Hero } from "@/components/site/Hero";
 import { Advantages } from "@/components/site/Advantages";
 import { QuoteWizard } from "@/components/site/QuoteWizard";
 import { Packages } from "@/components/site/Packages";
+import { BatteryComparator } from "@/components/site/BatteryComparator";
 import { Testimonials } from "@/components/site/Testimonials";
+import { Faq } from "@/components/site/Faq";
 import { ContactFooter } from "@/components/site/ContactFooter";
 import { Toaster } from "@/components/ui/sonner";
 
@@ -17,7 +19,9 @@ function App() {
         <Advantages />
         <QuoteWizard />
         <Packages />
+        <BatteryComparator />
         <Testimonials />
+        <Faq />
       </main>
       <ContactFooter />
       <Toaster position="top-center" richColors theme="dark" />

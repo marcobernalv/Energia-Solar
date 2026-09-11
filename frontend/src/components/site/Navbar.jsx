@@ -8,7 +8,9 @@ const LINKS = [
   { id: "ventajas", label: "Ventajas" },
   { id: "cotizador", label: "Cotizador" },
   { id: "paquetes", label: "Paquetes" },
+  { id: "baterias", label: "Baterías" },
   { id: "testimonios", label: "Testimonios" },
+  { id: "faq", label: "FAQ" },
   { id: "contacto", label: "Contacto" },
 ];
 

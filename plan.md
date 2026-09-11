@@ -96,8 +96,7 @@
 4. Como visitante, quiero ver una sección de “Proceso de instalación” con timeline.
 5. Como usuario, quiero que el sitio sea bilingüe si lo activan en el futuro.
 
-## STATUS UPDATE
-- Phase 1 (design guidelines) DONE. Core = WhatsApp funnel + cotizador logic; no isolated POC needed (pure frontend, wa.me deep link).
+## STATUS UPDATE Core = WhatsApp funnel + cotizador logic; no isolated POC needed (pure frontend, wa.me deep link).
 - Phase 2 (full SPA) DONE and shipped: Hero, Ventajas, Cotizador (3 steps + fridge submenu + legal note + battery accordion), Paquetes (Tabs Económica/Premium con precios/promos exactos), Testimonios (carrusel autoplay), Footer+Contacto (formulario -> WhatsApp).
 - E2E testing via testing_agent_v3: 100% pass, 0 bugs (iteration_1.json). Desktop + mobile verified, no horizontal overflow.
 
