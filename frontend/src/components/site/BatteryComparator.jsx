@@ -24,8 +24,8 @@ const LITIO_EQUIV = 3.5; // 1 litio ≈ 3-4 normales
 export const BatteryComparator = () => {
   const [baseNormales, setBaseNormales] = useState(4);
   const [horizon, setHorizon] = useState(15);
-  const [priceNormal, setPriceNormal] = useState("");
-  const [priceLitio, setPriceLitio] = useState("");
+  const [priceNormal, setPriceNormal] = useState("6000");
+  const [priceLitio, setPriceLitio] = useState("18000");
 
   const calc = useMemo(() => {
     const replacementSets = Math.ceil(horizon / NORMAL_LIFE); // veces que recompras el banco normal
@@ -160,8 +160,8 @@ export const BatteryComparator = () => {
                 </div>
               </div>
               <p className="mt-3 text-xs text-white/45">
-                Ingresa precios aproximados (opcional) para estimar el ahorro en pesos. Es solo una
-                referencia; contáctanos para precios reales.
+                Precios de referencia precargados (puedes editarlos). El ahorro es una estimación;
+                contáctanos para precios reales según tu sistema.
               </p>
             </div>
           </Reveal>
