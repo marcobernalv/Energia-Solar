@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 const LINKS = [
   { id: "inicio", label: "Inicio" },
   { id: "ventajas", label: "Ventajas" },
+  { id: "proyectos", label: "Proyectos" },
   { id: "cotizador", label: "Cotizador" },
   { id: "paquetes", label: "Paquetes" },
   { id: "baterias", label: "Baterías" },

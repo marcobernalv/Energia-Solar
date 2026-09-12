@@ -53,7 +53,7 @@ export const ContactFooter = () => {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
           {/* Info */}
           <Reveal>
-            <Logo />
+            <Logo className="h-16" />
             <p className="mt-5 max-w-md text-sm leading-relaxed text-white/65">
               Soluciones solares premium e iluminación en Ensenada, BC. Sistemas de
               interconexión CFE y sistemas aislados a la medida de tu consumo.

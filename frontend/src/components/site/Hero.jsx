@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Zap, ShieldCheck, Leaf, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Placeholder } from "@/components/site/Placeholder";
 
 function scrollToId(id) {
   const el = document.getElementById(id);
@@ -105,11 +104,18 @@ export const Hero = () => {
           className="relative"
         >
           <div className="rounded-[var(--radius-xl)] border border-white/10 bg-white/[0.04] p-3 shadow-[var(--shadow)] backdrop-blur-xl">
-            <Placeholder
-              label="Render 3D de paneles solares"
-              aspect="aspect-[4/3]"
-              testid="placeholder-hero-panels"
-            />
+            <div
+              data-testid="hero-image"
+              className="relative overflow-hidden rounded-[var(--radius-xl)] border border-white/10 aspect-[4/3]"
+            >
+              <img
+                src="/images/hero.jpg"
+                alt="Instalación de paneles solares en Ensenada"
+                className="h-full w-full object-cover"
+                loading="eager"
+              />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-black/10" />
+            </div>
             <div className="mt-3 grid grid-cols-3 gap-3">
               {[
                 { k: "kWp", v: "Escalable" },

@@ -4,6 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { Advantages } from "@/components/site/Advantages";
 import { QuoteWizard } from "@/components/site/QuoteWizard";
 import { Packages } from "@/components/site/Packages";
+import { Gallery } from "@/components/site/Gallery";
 import { BatteryComparator } from "@/components/site/BatteryComparator";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Faq } from "@/components/site/Faq";
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Hero />
         <Advantages />
+        <Gallery />
         <QuoteWizard />
         <Packages />
         <BatteryComparator />
