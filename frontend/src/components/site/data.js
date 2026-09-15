@@ -74,16 +74,6 @@ export const ECON_PACKAGES = [
     badge: null,
   },
   {
-    id: "eco-395",
-    price: 39500,
-    oldPrice: 50000,
-    panels: "2 Paneles (510w)",
-    inverter: "Inversor PowMr 3000w",
-    battery: "2 Baterías litio fosfato 2.5kw",
-    badge: "PROMO",
-    highlight: true,
-  },
-  {
     id: "eco-45",
     price: 45000,
     panels: "2 Paneles",
